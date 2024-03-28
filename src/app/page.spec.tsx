@@ -98,6 +98,35 @@ describe("Testa a pagina principal", () => {
     ).toBeInTheDocument();
   });
 
+  it("Não deve fazer login com password inválido", async () => {
+    render(<Home />);
+
+    const button = await screen.findByRole("button");
+
+    const inputEmail = await screen.findByPlaceholderText("Enter your email");
+
+    fireEvent.change(inputEmail, {
+      target: {
+        value: "testeInvalido@email.com",
+      },
+    });
+
+    const inputPassword = await screen.findByPlaceholderText(
+      "Enter your password"
+    );
+
+    fireEvent.change(inputPassword, {
+      target: {
+        value: "123456",
+      },
+    });
+
+    //screen.debug();
+    fireEvent.click(button);
+
+    expect(screen.queryByText("E-mail e senha inválidos!")).toBeInTheDocument();
+  });
+
   it("Não deve fazer login com credenciais inválidas", async () => {
     render(<Home />);
 
