@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TDD Front
 
-## Getting Started
+Projeto para estudo de testes voltados para o frontend.
 
-First, run the development server:
+## 🧶 Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Este projeto é uma aplicação desenvolvida em Next.js, utilizando as bibliotecas Vitest e Testing Library para realizar testes de unidade, testes end-to-end e testes de integração no frontend. O principal objetivo é demonstrar e praticar técnicas de teste para aplicações frontend, abordando diferentes aspectos e casos de uso.
+
+## 🎒 Pré-requisitos
+
+Antes de começar, as seguintes ferramentas devem estar instaladas em seu sistema:
+
+- [Node.js](https://nodejs.org/en)
+- npm (ou Yarn)
+
+## 🚚 Instalação
+
+- Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-projeto.git`
+- Navegue até o diretório do projeto: `cd nome-do-projeto`
+- Instale as dependências: `npm install` ou `yarn install`
+
+## 🔧 Executando os Testes
+
+Para executar os testes unitários, utilize o seguinte comando:
+
+```
+npm run test
+npm run coverage
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👣 Próximos Passos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [x] Aplicar metodologia TDD.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [ ] Aplicar metodologia BDD.
 
-## Learn More
+- [ ] Aplicar metodologia DDD.
 
-To learn more about Next.js, take a look at the following resources:
+- [x] Realizar teste de unidade.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] Realizar teste End-To-End.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [ ] Realizar teste de integração.
 
-## Deploy on Vercel
+- [ ] Adicionar mais testes para cobrir outros cenários e funcionalidades da aplicação.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Explorar técnicas avançadas de testes, como mocking e stubbing,
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ ] Integrar ferramentas de análise de cobertura de código para garantir uma cobertura adequada dos testes.
+
+- [ ] Experimentar com outras ferramentas e bibliotecas de teste disponíveis na comunidade.
+
+## 📚 Autores
+
+Feito estrategicamente por [wdwf](https://www.linkedin.com/in/weslleyferreira/) :shipit:
