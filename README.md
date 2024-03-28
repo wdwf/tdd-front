@@ -15,8 +15,8 @@ Antes de começar, as seguintes ferramentas devem estar instaladas em seu sistem
 
 ## 🚚 Instalação
 
-- Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-projeto.git`
-- Navegue até o diretório do projeto: `cd nome-do-projeto`
+- Clone este repositório: `git clone https://github.com/wdwf/tdd-front`
+- Navegue até o diretório do projeto: `cd tdd-front`
 - Instale as dependências: `npm install` ou `yarn install`
 
 ## 🔧 Executando os Testes
